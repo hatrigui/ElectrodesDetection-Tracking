@@ -1,0 +1,7 @@
+train: D:/new training/new dataset/train/images
+val: D:/new training/new dataset/val/images
+test: D:/new training/new dataset/test/images
+
+nc: 3  # Number of classes (adjust to your use case)
+names: ['electrode1', 'electrode2', 'electrode3']
+

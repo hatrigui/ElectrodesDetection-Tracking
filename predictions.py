@@ -51,8 +51,8 @@ def draw_contours_on_predictions(model_path, test_images_path, output_folder, mi
             print(f"Failed to save: {output_image_path}")
 
 # Example usage
-model_path = "D:\\new training\\runs\\detect\\train4\\weights\\best.pt"
-test_images_path = "D:\\Frames\\a"
-output_folder = "D:\\Frames\\a\\predictions_with_contours"
+model_path = "C:\\Users\\la7tim\\Desktop\\best.pt"
+test_images_path = "C:\\Users\\la7tim\\Downloads\\1frame_02416.jpg"
+output_folder = "C:\\Users\\la7tim\\Desktop"
 draw_contours_on_predictions(model_path, test_images_path, output_folder)
 
